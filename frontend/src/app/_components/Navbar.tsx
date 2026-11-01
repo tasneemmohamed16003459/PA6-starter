@@ -12,7 +12,6 @@ export default function Navbar() {
       <Link href="/" className={getLinkClass("/")}>Home</Link>
       <Link href="/todos" className={getLinkClass("/todos")}>Todos</Link>
       <Link href="/todos/new" className={getLinkClass("/todos/new")}>New Todo</Link>
-      <Link href="/dashboard" className={getLinkClass("/dashboard")}>Dashboard</Link>
     </nav>
   );
 }
